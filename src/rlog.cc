@@ -29,7 +29,7 @@ pthread_once_t ring_log::_once = PTHREAD_ONCE_INIT;
 uint32_t ring_log::_one_buff_len = 30*1024*1024;
 
 ring_log::ring_log():
-	 buff_cnt(3),
+    _buff_cnt(3),
     _curr_buf(nullptr),
     _prst_buf(nullptr),
     _fp(nullptr),
