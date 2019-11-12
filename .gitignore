@@ -1,3 +1,5 @@
 *.o
 *.d
 lib
+.cproject
+.project
